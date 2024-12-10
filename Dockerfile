@@ -6,7 +6,6 @@ COPY . /app
 
 RUN apt update -y &&  \
     apt-get update &&  \
-    pip install --upgrade pip &&  \
     apt-get install ffmpeg libsm6 libxext6  -y
 
 RUN apt-get install apt-transport-https ca-certificates gnupg -y && apt install python3 -y
