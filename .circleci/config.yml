@@ -50,7 +50,7 @@ jobs:
 
   continuous-deployment:
     machine: true
-    resource_class: harshad/nerbert
+    resource_class: aaaa/ner-bert
     environment:
       REPOSITORY: ner-bert
       GAR_IMAGE_NAME: ner-bert
